@@ -1,0 +1,56 @@
+.app-header {
+  padding-left: 8px;
+}
+
+.app-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  label {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+}
+
+.table {
+  font-size: 20px;
+  text-align: left;
+  border: 1px solid;
+
+  th {
+    padding: 8px;
+    border: 1px solid;
+  }
+
+  td {
+    padding: 8px;
+    border: 1px solid;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-bottom: 36px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 24px 48px;
+}
+
+.form-submit-btn {
+  margin-top: 24px;
+}
